@@ -59,29 +59,29 @@ export class MiNav extends HTMLElement {
               <details>
                 <summary>
                 <h4>
-                  <a href="/2_fundamentos/index.html">Conceptos Básicos</a>
+                  <a href="/2_conceptos/index.html">Conceptos Básicos</a>
                 </h4>
                 </summary>
-                <ol>
+                <ol type="A">
                   <li>
-                    <p><a href="/d_js/1_js.html">Textos</a></p>
+                    <p><a href="/2_conceptos/a_js.html">JavaScript</a></p>
                   </li>
                   <li>
-                    <p><a href="/d_js/2_textos.html">Números</a></p>
+                    <p><a href="/2_conceptos/b_textos.html">Textos</a></p>
                   </li>
                   <li>
                     <p>
-                      <a href="/d_js/3_string.html">Booleanos</a>
+                      <a href="/2_conceptos/c_string.html">El tipo string</a>
                     </p>
                   </li>
                   <li>
-                    <p><a href="/d_js/4_console.html">console.log</a></p>
+                    <p><a href="/2_conceptos/d_write.html">document.write</a></p>
                   </li>
                   <li>
-                    <p><a href="/d_js/5_orden.html">Orden de ejecución</a></p>
+                    <p><a href="/2_conceptos/e_orden.html">Orden de ejecución</a></p>
                   </li>
                   <li>
-                    <p><a href="/d_js/7_resumen.html">Resumen</a></p>
+                    <p><a href="/2_conceptos/f_resumen.html">Resumen</a></p>
                   </li>
                 </ol>
               </details>

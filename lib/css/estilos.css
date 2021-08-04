@@ -180,17 +180,3 @@ table.borde th,
 table.borde td {
   padding: 0.4rem;
 }
-
-.fondo {
-  background-repeat: no-repeat;
-  background-position-x:
-    center;
-  background-position-y:
-    center;
-  background-attachment:
-    fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}

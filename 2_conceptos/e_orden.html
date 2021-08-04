@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="/js/config.js"></script>
+  <!-- <link rel="icon" sizes="32x32" href="/favicon.ico">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="manifest" href="/site.webmanifest"> -->
+  <link rel="stylesheet" href="/css/estilos.css">
+  <script type="module" src="/lib/muestra-codigo.js"></script>
+</head>
+<body>
+  <layout-cajon>
+    <mi-nav slot="nav"></mi-nav>
+    <h1>Orden de ejecución</h1>
+    <div class="marco-lectura">
+      <p>Los renglones de instrucciones se ejecutan de arriba para abajo.</p>
+      <p>
+        En cada renglón, las instrucciones se ejecutan de izquierda a derecha.
+      </p>
+      <h2>Ejemplo</h2>
+    </div>
+    <div class="horizontal">
+      <muestra-codigo>
+        <div>
+          <div><span style="color: #800000;">&lt;script&gt;</span></div>
+          <div><span style="color: #0000ff;">debugger</span>;</div>
+          <div><span style="color: #001080;">document</span>.<span
+                style="color: #795e26;">write</span>(<span
+                style="color: #a31515;">"p&lt;br&gt;"</span>);&nbsp;<span
+                style="color: #001080;">document</span>.<span
+                style="color: #795e26;">write</span>(<span
+                style="color: #a31515;">"a&lt;br&gt;"</span>);</div>
+          <div><span style="color: #001080;">document</span>.<span
+                style="color: #795e26;">write</span>(<span
+                style="color: #a31515;">"u"</span>);</div>
+          <div><span style="color: #800000;">&lt;/script&gt;</span></div>
+        </div>
+      </muestra-codigo>
+      <div>
+        <h2>Salida</h2>
+        <pre><samp>p
+a
+u</samp></pre>
+      </div>
+    </div>
+    <div class="marco-lectura">
+      <p>
+        <a target="_blank"
+            href="https://gilpgedit.github.io/#%3Cscript%3E%0Adebugger%3B%0Adocument.write(%22p%3Cbr%3E%22)%3B%20document.write(%22a%3Cbr%3E%22)%3B%0Adocument.write(%22u%22)%3B%0A%3C%2Fscript%3E">
+          Revísalo en gilpgedit
+        </a>
+      </p>
+    </div>
+    <mi-footer></mi-footer>
+  </layout-cajon>
+</body>
+</html>
