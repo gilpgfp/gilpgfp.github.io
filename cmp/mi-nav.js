@@ -1,7 +1,6 @@
 /* This work by Gilberto Pacheco Gallegos is licensed under the Creative Commons
  * Atribución 4.0 Internacional License. To view a copy of this license, visit
  * http://creativecommons.org/licenses/by/4.0/. */
-
 export class MiNav extends HTMLElement {
   connectedCallback() {
     this.innerHTML = /* html */
@@ -87,6 +86,44 @@ export class MiNav extends HTMLElement {
               </details>
             </li>
           </ol>
+        </li>
+        <li>
+          <details>
+            <summary>
+              <h4>
+                <a href="/3_variables/index.html">Variables</a>
+              </h4>
+            </summary>
+            <ol type="A">
+              <li>
+                <p>
+                  <a
+                    href="/3_variables/a_identificadores.html">Identificadores</a>
+                </p>
+              </li>
+              <li>
+                <p><a href="/3_variables/b_variables.html">Variables</a></p>
+              </li>
+              <li>
+                <p><a href="/3_variables/c_constantes.html">Constantes</a></p>
+              </li>
+              <li>
+                <p>
+                  <a href="/3_variables/d_duplicadas.html">Variables
+                    Duplicadas</a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="/3_variables/e_no_encontradas.html">Variables no
+                    encontradas</a>
+                </p>
+              </li>
+              <li>
+                <p><a href="/3_variables/f_resumen.html">Resumen</a></p>
+              </li>
+            </ol>
+          </details>
         </li>
       </ol>`;
   }

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="/js/config.js"></script>
+  <!-- <link rel="icon" sizes="32x32" href="/favicon.ico">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="manifest" href="/site.webmanifest"> -->
+  <link rel="stylesheet" href="/css/estilos.css">
+  <script type="module" src="/lib/muestra-codigo.js"></script>
+</head>
+<body>
+  <layout-cajon>
+    <mi-nav slot="nav"></mi-nav>
+    <h1>Variables Duplicadas</h1>
+    <div class="marco-lectura">
+      <p>
+        Las variables o constantes declaradas en el mismo espacio no pueden
+        tener el mismo nombre.
+      </p>
+      <h2>Ejemplo</h2>
+    </div>
+    <div class="horizontal">
+      <muestra-codigo>
+        <div>
+          <div><span style="color: #800000;">&lt;script&gt;</span></div>
+          <div><span style="color: #0000ff;">debugger</span>;</div>
+          <div><span style="color: #0000ff;">let</span>&nbsp;<span
+                style="color: #001080;">a</span>&nbsp;=&nbsp;<span
+                style="color: #a31515;">"Q1"</span>;</div>
+          <div><span style="color: #001080;">document</span>.<span
+                style="color: #795e26;">write</span>(<span
+                style="color: #001080;">a</span>);</div>
+          <div><span style="color: #0000ff;">const</span>&nbsp;<span
+                style="color: #0070c1;">a</span>&nbsp;=&nbsp;<span
+                style="color: #a31515;">"Q2"</span>;</div>
+          <div><span style="color: #001080;">document</span>.<span
+                style="color: #795e26;">write</span>(<span
+                style="color: #001080;">a</span>);</div>
+          <div><span style="color: #800000;">&lt;/script&gt;</span></div>
+        </div>
+      </muestra-codigo>
+      <div>
+        <h3>Consola</h3>
+        <pre><samp><span style="color: red;">Uncaught SyntaxError: Identifier 'a' has already been declared</span></samp></pre>
+      </div>
+    </div>
+    <div class="marco-lectura">
+      <a target="_blank"
+          href="https://gilpgedit.github.io/#%3Cscript%3E%0Adebugger%3B%0Alet%20a%20%3D%20%22Q1%22%3B%0Adocument.write(a)%3B%0Aconst%20a%20%3D%20%22Q2%22%3B%0Adocument.write(a)%3B%0A%3C%2Fscript%3E">
+        Revísalo en gilpgedit
+      </a>
+    </div>
+    <mi-footer></mi-footer>
+  </layout-cajon>
+</body>
+</html>

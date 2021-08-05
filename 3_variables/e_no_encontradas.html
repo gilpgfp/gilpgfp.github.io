@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="/js/config.js"></script>
+  <!-- <link rel="icon" sizes="32x32" href="/favicon.ico">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="manifest" href="/site.webmanifest"> -->
+  <link rel="stylesheet" href="/css/estilos.css">
+  <script type="module" src="/lib/muestra-codigo.js"></script>
+</head>
+<body>
+  <layout-cajon>
+    <mi-nav slot="nav"></mi-nav>
+    <h1>Variables no encontradas</h1>
+    <div class="marco-lectura">
+      <p>
+        Cuando tratas de usar una variable o una constante no definida, obtienes
+        un mensaje de error y se aborta la ejecución del programa.
+      </p>
+      <h2>Ejemplo</h2>
+    </div>
+    <div class="horizontal">
+      <muestra-codigo>
+        <div>
+          <div><span style="color: #800000;">&lt;script&gt;</span></div>
+          <div><span style="color: #0000ff;">debugger</span>;</div>
+          <div><span style="color: #0000ff;">let</span>&nbsp;<span
+                style="color: #001080;">b</span>&nbsp;=&nbsp;<span
+                style="color: #a31515;">"BB"</span>;</div>
+          <div><span style="color: #001080;">console</span>.<span
+                style="color: #795e26;">log</span>(<span
+                style="color: #001080;">bb</span>);</div>
+          <div><span style="color: #800000;">&lt;/script&gt;</span></div>
+        </div>
+      </muestra-codigo>
+      <div>
+        <h3>Consola</h3>
+        <pre><samp><span style="color: red;">Uncaught ReferenceError: bb is not defined</span></samp></pre>
+      </div>
+    </div>
+    <div class="marco-lectura">
+      <a target="_blank"
+          href="https://gilpgedit.github.io/#%3Cscript%3E%0Adebugger%3B%0Alet%20b%20%3D%20%22BB%22%3B%0Aconsole.log(bb)%3B%0A%3C%2Fscript%3E">
+        Revísalo en gilpgedit
+      </a>
+    </div>
+    <mi-footer></mi-footer>
+  </layout-cajon>
+</body>
+</html>

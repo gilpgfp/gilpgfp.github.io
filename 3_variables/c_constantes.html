@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="/js/config.js"></script>
+  <!-- <link rel="icon" sizes="32x32" href="/favicon.ico">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="manifest" href="/site.webmanifest"> -->
+  <link rel="stylesheet" href="/css/estilos.css">
+  <script type="module" src="/lib/muestra-codigo.js"></script>
+</head>
+<body>
+  <layout-cajon>
+    <mi-nav slot="nav"></mi-nav>
+    <h1>Constantes</h1>
+    <div class="marco-lectura">
+      <p>
+        Una <dfn>constante</dfn> es similar a una variable, pero su valor no
+        puede cambiar una vez asignado.
+      </p>
+      <p>
+        Normalmente el nombre se escribe en mayúsculas, usando guión bajo
+        (<code class="language-javascript">_</code>)
+        para separar palabras.
+      </p>
+      <p>
+        Se declaran con
+        <code class="language-javascript">const</code>
+      </p>
+      <h2>Ejemplo</h2>
+    </div>
+    <div class="horizontal">
+      <muestra-codigo>
+        <div>
+          <div><span style="color: #800000;">&lt;script&gt;</span></div>
+          <div><span style="color: #0000ff;">debugger</span>;</div>
+          <div><span style="color: #0000ff;">const</span>&nbsp;<span
+                style="color: #0070c1;">PI</span>&nbsp;=&nbsp;<span
+                style="color: #098658;">3.14159</span>;</div>
+          <div><span style="color: #001080;">document</span>.<span
+                style="color: #795e26;">write</span>(<span
+                style="color: #0070c1;">PI</span>);</div>
+          <div><span style="color: #001080;">document</span>.<span
+                style="color: #795e26;">write</span>(<span
+                style="color: #a31515;">"PI"</span>);</div>
+          <div><span style="color: #0070c1;">PI</span>&nbsp;=&nbsp;<span
+                style="color: #098658;">9</span>;</div>
+          <div><span style="color: #001080;">document</span>.<span
+                style="color: #795e26;">write</span>(<span
+                style="color: #0070c1;">PI</span>);</div>
+          <div><span style="color: #800000;">&lt;/script&gt;</span></div>
+        </div>
+      </muestra-codigo>
+      <div>
+        <h3>Salida</h3>
+        <pre><samp>3.14159PI</span></samp></pre>
+      </div>
+      <div>
+        <h3>Consola</h3>
+        <pre><samp><span style="color: red;">Uncaught TypeError: Assignment to constant variable.</span></samp></pre>
+      </div>
+    </div>
+    <div class="marco-lectura">
+      <p>
+        <a target="_blank"
+            href="https://gilpgedit.github.io/#%3Cscript%3E%0Adebugger%3B%0Aconst%20PI%20%3D%203.14159%3B%0Adocument.write(PI)%3B%0Adocument.write(%22PI%22)%3B%0API%20%3D%209%3B%0Adocument.write(PI)%3B%0A%3C%2Fscript%3E">
+          Revísalo en gilpgedit
+        </a>
+      </p>
+    </div>
+    <mi-footer></mi-footer>
+  </layout-cajon>
+</body>
+</html>
