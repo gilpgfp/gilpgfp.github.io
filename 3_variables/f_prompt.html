@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="/js/config.js"></script>
+  <!-- <link rel="icon" sizes="32x32" href="/favicon.ico">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="manifest" href="/site.webmanifest"> -->
+  <link rel="stylesheet" href="/css/estilos.css">
+  <script type="module" src="/lib/muestra-codigo.js"></script>
+</head>
+<body>
+  <layout-cajon>
+    <mi-nav slot="nav"></mi-nav>
+    <h1>La función prompt</h1>
+    <div class="marco-lectura">
+      <p>
+        La función <dfn>prompt</dfn> sirve para pedir datos.
+      </p>
+      <h2>Ejemplo</h2>
+    </div>
+    <muestra-codigo>
+      <div>
+        <div><span style="color: #800000;">&lt;script&gt;</span></div>
+        <div><span style="color: #0000ff;">debugger</span>;</div>
+        <div><span style="color: #0000ff;">const</span>&nbsp;<span
+              style="color: #0070c1;">nombre</span>&nbsp;=&nbsp;<span
+              style="color: #795e26;">prompt</span>(<span
+              style="color: #a31515;">"Nombre:"</span>);</div>
+        <div><span style="color: #001080;">document</span>.<span
+              style="color: #795e26;">write</span>(<span
+              style="color: #a31515;">"Hola&nbsp;"</span>);</div>
+        <div><span style="color: #001080;">document</span>.<span
+              style="color: #795e26;">write</span>(<span
+              style="color: #0070c1;">nombre</span>);</div>
+        <div><span style="color: #001080;">document</span>.<span
+              style="color: #795e26;">write</span>(<span
+              style="color: #a31515;">".&nbsp;Lindo&nbsp;día."</span>);</div>
+        <div><span style="color: #800000;">&lt;/script&gt;</span></div>
+      </div>
+    </muestra-codigo>
+    <div class="marco-lectura">
+      <a target="_blank"
+          href="https://gilpgedit.github.io/#%3Cscript%3E%0Adebugger%3B%0Aconst%20nombre%20%3D%20prompt(%22Nombre%3A%22)%3B%0Adocument.write(%22Hola%20%22)%3B%0Adocument.write(nombre)%3B%0Adocument.write(%22.%20Lindo%20d%C3%ADa.%22)%3B%0A%3C%2Fscript%3E">
+        Revísalo en gilpgedit
+      </a>
+    </div>
+    <mi-footer></mi-footer>
+  </layout-cajon>
+</body>
+</html>
