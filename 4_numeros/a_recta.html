@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="/js/config.js"></script>
+  <link rel="icon" sizes="32x32" href="/favicon.ico">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="/css/estilos.css">
+  <script type="module" src="/lib/muestra-codigo.js"></script>
+</head>
+<body>
+  <layout-cajon>
+    <mi-nav slot="nav"></mi-nav>
+    <h1>Recta numérica</h1>
+    <figure>
+      <img alt="Imagen de la recta numérica" src="img/recta.svg">
+    </figure>
+    <div class="marco-lectura">
+      <p>Los números a la izquierda son menores que los de la derecha.</p>
+      <dl>
+        <dt><dfn><code class="language-javascript">0</code></dfn></dt>
+        <dd>
+          <p>Es el centro de la recta.</p>
+        </dd>
+        <dt><dfn><code class="language-javascript">Number.MIN_VALUE</code></dfn>
+        </dt>
+        <dd>
+          <p>
+            Es el valor positivo más cercano a 0; aproximadamente 5 ×
+            10<sup>-324</sup>
+          </p>
+        </dd>
+        <dt><dfn><code
+              class="language-javascript">-Number.MIN_VALUE</code></dfn></dt>
+        <dd>
+          <p>
+            Es el valor negativo más cercano a 0; aproximadamente -5 ×
+            10<sup>-324</sup>.
+          </p>
+        </dd>
+        <dt><dfn><code
+              class="language-javascript">Number.MAX_SAFE_INTEGER</code></dfn>
+        </dt>
+        <dd>
+          <p>
+            El entero más positivo <var>n</var> para el cual n y n + 1 se
+            pueden representar como un número exacto. Su valor es
+            9007199254740991.
+          </p>
+        </dd>
+        <dt><dfn><code
+              class="language-javascript">Number.MIN_SAFE_INTEGER</code></dfn>
+        </dt>
+        <dd>
+          <p>
+            El entero más negativo <var>n</var> para el cual n y n - 1 se
+            pueden representar como un número exacto. Su valor es
+            -9007199254740991.
+          </p>
+        </dd>
+        <dt><dfn><code class="language-javascript">Number.MAX_VALUE</code></dfn>
+        </dt>
+        <dd>
+          <p>
+            Es el valor numérico finito más positivo, aproximadamente
+            1.7976931348623157 × 10<sup>308</sup>.
+          </p>
+        </dd>
+        <dt><dfn><code
+              class="language-javascript">-Number.MAX_VALUE</code></dfn></dt>
+        <dd>
+          <p>
+            Es el valor numérico finito más negativo, aproximadamente
+            -1.7976931348623157 × 10<sup>308</sup>.
+          </p>
+        </dd>
+        <dt><dfn><code
+              class="language-javascript">Number.POSITIVE_INFINITY</code></dfn>
+        </dt>
+        <dd>
+          <p>
+            Representa a todos los valores más positivos que
+            <code class="language-javascript">Number.MAX_VALUE</code>.
+          </p>
+        </dd>
+        <dt><dfn><code
+              class="language-javascript">Number.NEGATIVE_INFINITY</code></dfn>
+        </dt>
+        <dd>
+          <p>
+            Representa a todos los valores más negativos que
+            <code class="language-javascript">-Number.MAX_VALUE</code>.
+          </p>
+        </dd>
+      </dl>
+    </div>
+    <mi-footer></mi-footer>
+  </layout-cajon>
+</body>
+</html>

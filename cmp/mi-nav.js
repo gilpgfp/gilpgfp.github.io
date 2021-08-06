@@ -86,49 +86,66 @@ export class MiNav extends HTMLElement {
               </details>
             </li>
             <li>
-            <details>
-              <summary>
-                <h4>
-                  <a href="/3_variables/index.html">Variables</a>
-                </h4>
-              </summary>
-              <ol type="A">
-                <li>
-                  <p>
-                    <a
-                      href="/3_variables/a_identificadores.html">Identificadores</a>
-                  </p>
-                </li>
-                <li>
-                  <p><a href="/3_variables/b_variables.html">Variables</a></p>
-                </li>
-                <li>
-                  <p><a href="/3_variables/c_constantes.html">Constantes</a></p>
-                </li>
-                <li>
-                  <p>
-                    <a href="/3_variables/d_duplicadas.html">Variables
-                      Duplicadas</a>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <a href="/3_variables/e_no_encontradas.html">Variables no
-                      encontradas</a>
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <a href="/3_variables/f_prompt.html">La función prompt</a>
-                  </p>
-                </li>
-                <li>
-                  <p><a href="/3_variables/g_resumen.html">Resumen</a></p>
-                </li>
-              </ol>
-            </details>
-          </li>
-            </ol>
+              <details>
+                <summary>
+                  <h4>
+                    <a href="/3_variables/index.html">Variables</a>
+                  </h4>
+                </summary>
+                <ol type="A">
+                  <li>
+                    <p>
+                      <a
+                        href="/3_variables/a_identificadores.html">Identificadores</a>
+                    </p>
+                  </li>
+                  <li>
+                    <p><a href="/3_variables/b_variables.html">Variables</a></p>
+                  </li>
+                  <li>
+                    <p><a href="/3_variables/c_constantes.html">Constantes</a></p>
+                  </li>
+                  <li>
+                    <p>
+                      <a href="/3_variables/d_duplicadas.html">Variables
+                        Duplicadas</a>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <a href="/3_variables/e_no_encontradas.html">Variables no
+                        encontradas</a>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <a href="/3_variables/f_prompt.html">La función prompt</a>
+                    </p>
+                  </li>
+                  <li>
+                    <p><a href="/3_variables/g_resumen.html">Resumen</a></p>
+                  </li>
+                </ol>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>
+                  <h4>
+                    <a href="/4_numeros/index.html">Números</a>
+                  </h4>
+                </summary>
+                <ol type="A">
+                  <li>
+                    <p>
+                      <a
+                        href="/4_numeros/a_recta.html">Recta</a>
+                    </p>
+                  </li>
+                </ol>
+              </details>
+            </li>
+          </ol>
         </li>
       </ul>`;
   }
