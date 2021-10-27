@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script type="module" src="/js/config.js"></script>
-  <!-- <link rel="icon" sizes="32x32" href="/favicon.ico">
+  <link rel="icon" sizes="32x32" href="/favicon.ico">
   <meta name="theme-color" content="#ffffff">
   <link rel="manifest" href="/site.webmanifest">
   <meta name="apple-mobile-web-app-title" content="ijs">
@@ -13,23 +13,17 @@
   <link rel="apple-touch-icon" href="/img/icono2048.png">
   <link rel="apple-touch-icon" sizes="256x256" href="/img/icono256.png">
   <link rel="apple-touch-icon" sizes="1024x1024" href="/img/icono1024.png">
-  <link rel="apple-touch-icon" sizes="2048x2048" href="/img/icono2048.png"> -->
+  <link rel="apple-touch-icon" sizes="2048x2048" href="/img/icono2048.png">
   <link rel="stylesheet" href="/css/estilos.css">
-</head>
+  <script type="module" src="cmp/gilpgfp-index.js"></script>
+ </head>
 <body>
   <layout-cajon>
     <mi-nav slot="nav"></mi-nav>
     <h1>Fundamentos de programación</h1>
-    <div class="marco-lectura">
-      <p>Contenido introductorio sobre programación</p>
-      <p>
-        Una vez concluidos estos temas, puedes continuar con
-        <a href="https://gilpgijs.github.io" target="_blank">GilPGIJS</a>
-        para aprender más sobre programación en JavaScript.
-      </p>
-      <mi-nav></mi-nav>
-    </div>
-    <mi-footer></mi-footer>
+    <div class="lectura"></div>
+    <gilpgfp-index></gilpgfp-index>
+    <mi-footer slot="footer"></mi-footer>
   </layout-cajon>
 </body>
 </html>

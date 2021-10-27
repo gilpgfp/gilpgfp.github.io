@@ -3,10 +3,6 @@
  * http://creativecommons.org/licenses/by/4.0/. */
 
 @import "/lib/css/mi-footer.css";
-@import "/lib/css/material-icons.css";
-@import "/lib/css/ubuntu-mono.css";
-@import "/lib/css/ubuntu.css";
-@import "/lib/css/gentium-book-basic.css";
 @import "/lib/css/estilos.css";
 
 :root {
@@ -17,6 +13,7 @@
   --colLetra: black;
   --colFondo: white;
   --colTituloLetra: #039623;
+  --colTituloShadow: 3px 1px 2px #cccccc;
   --colTituloStrong: #c61b04;
   --colSummary: black;
   --colScrollbar: #CFD8DC;
@@ -25,18 +22,19 @@
   --colThumbActivo: #3f3f3f;
   --anchoThumb: 7px;
   --borderRadiusThumb: 3.5px;
-  --colAnclaToolbarLetra: black;
-  --colAnclaToolbarFondo: white;
   --colSombra: #49494980;
+  --navSombra: 0.5rem 0 0.5rem var(--colSombra);
+  --padCtrl: 0.2rem 0.3rem;
+  --borderCtrl: solid thin;
   --colFondoNav: #e4e4e4;
   --colNavResaltada: #dd8b11;
   --colSecundario: #ffff82;
   --colStack1: black;
-  --padMiNav: 0 0.5rem 0.5rem 0.5rem;
-  --padDiapositiva: 0.5rem;
-  --fontMono: 'Ubuntu Mono', monospace;
-  --fontSans: 'Ubuntu', sans-serif;
-  --fontSerif: 'Gentium Book Basic', serif;
+  --padMiNav: 0.5rem;
+  --gap: 0.5rem;
+  --fontMono: monospace;
+  --fontSans: sans-serif;
+  --fontSerif: serif;
   font-family: var(--fontSerif);
   color: var(--colLetra);
   background-color: var(--colFondo);
