@@ -2,7 +2,8 @@
  * Atribución 4.0 Internacional License. To view a copy of this license, visit
  * http://creativecommons.org/licenses/by/4.0/. */
 
-@import "./mi-footer.css";
+@import "./mi-nav.css";
+@import "./titulos.css";
 
 body {
  visibility: hidden;
@@ -23,53 +24,8 @@ body.visible {
  border: var(--borderCtrl)
 }
 
-mi-nav {
- display: block;
-}
-
-h1:not(.default),
-h2:not(.default),
-h3:not(.default) {
- font-family: var(--fontSans);
- color: var(--colTituloLetra);
- text-shadow: var(--colTituloShadow);
-}
-
-h1:not(.default) strong,
-h2:not(.default) strong,
-mi-nav a {
- font-family: var(--fontSans);
- display: inline-flex;
- gap: var(--gapA);
-}
-
-h1 strong,
-a strong {
- color: var(--colTituloStrong);
-}
-
 muestra-codigo>div>div {
  white-space: nowrap;
-}
-
-details div {
- margin: 1rem 0 1rem 1rem;
-}
-summary {
- margin-top: 1rem;
- margin-bottom: 1rem;
-}
-
-summary h3:not(.default),
-summary h4:not(.default) {
- color: var(--colSummary);
- display: inline;
- font-family: var(--fontSans);
-}
-
-mi-nav .actual h3,
-mi-nav .actual h4 {
- font-style: oblique;
 }
 
 .print .noPrint {
@@ -80,29 +36,6 @@ mi-nav .actual h4 {
  .noPrint {
   display: none;
  }
-}
-
-@media screen and (max-width: 999px) {
- h1.sitio {
-  font-size: 3rem;
- }
- h1.leccion {
-  font-size: 2.5rem;
- }
-}
-
-@media screen and (min-width: 1000px) {
- h1.sitio {
-  font-size: 9vh;
- }
- h1.leccion {
-  font-size: 7vh;
- }
-}
-
-a.actual {
- font-weight: bold;
- color: var(--colNavResaltada);
 }
 
 nav-local {

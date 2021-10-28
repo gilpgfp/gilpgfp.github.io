@@ -1,0 +1,36 @@
+mi-nav {
+ display: block;
+}
+
+mi-nav a {
+ font-family: var(--fontSans);
+ display: inline-flex;
+ gap: var(--gapA);
+}
+
+mi-nav .actual h3,
+mi-nav .actual h4 {
+ font-style: oblique;
+}
+
+mi-nav a.actual {
+ font-weight: bold;
+ color: var(--colNavResaltada);
+}
+
+details div {
+ margin: 1rem 0 1rem 1rem;
+}
+
+summary {
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+}
+
+summary h3:not(.default),
+summary h4:not(.default) {
+ color: var(--colSummary);
+ display: inline-block;
+ margin: 0;
+ font-family: var(--fontSans);
+}
