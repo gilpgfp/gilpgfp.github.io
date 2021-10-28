@@ -5,7 +5,7 @@ export class MiNav extends HTMLElement {
   connectedCallback() {
     this.innerHTML = /* html */
       `<ul>
-        <li><p><a href="/index.html">Inicio</a></p></li>
+        <li><p><a href="/index.html">Fundamentos de Programación</a></p></li>
         <li>
          <h3>Lecciones</h3>
          <details>
