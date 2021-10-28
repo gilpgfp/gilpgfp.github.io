@@ -1,0 +1,13 @@
+:host(:not(.pres)) #principal {
+ animation-timing-function: var(--introFuncion, ease-out);
+ animation-duration: var(--introDuracion, 3s);
+ animation-name: desplaza;
+}
+@keyframes desplaza {
+ from {
+  transform: translateX(150%);
+ }
+ to {
+  transform: translateX(0);
+ }
+}

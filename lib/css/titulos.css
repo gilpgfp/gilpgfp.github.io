@@ -11,6 +11,12 @@ a strong {
  color: var(--colTituloStrong);
 }
 
+.autor {
+ font-family: var(--fontSans);
+ font-size: 1.5rem;
+ color: var(--colTituloLetra);
+}
+
 @media screen and (max-width: 999px) {
  h1.sitio {
   font-size: 3rem;

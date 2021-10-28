@@ -1,13 +1,15 @@
+import "../js/config.js";
 import { Diapositiva } from "../lib/Diapositiva.js";
-import "../lib/instrucciones-nav.js"
+import "../lib/instrucciones-nav.js";
 
 export class GilPGFPIndex extends Diapositiva {
  /** @override */
  connectedCallback() {
   super.connectedCallback();
   this.innerHTML = /* html */
-   `<div class="lectura">
-    <address><p>por Gilberto Pacheco Gallegos</p></address>
+   `<h1 class="sitio">Fundamentos de programación</h1>
+   <div class="lectura">
+    <p class="autor">por Gilberto Pacheco Gallegos</p>
     <p class="noPrint">
      <a href="print.html" target="_blank">Versión para Imprimir.</a>
     </p>
