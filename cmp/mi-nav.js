@@ -77,8 +77,8 @@ export class MiNav extends HTMLElement {
           <div><a href="/4_numeros/a_recta.html">Recta</a></div>
          </details>
         </li>
-       </ul>`;
+       </ul>`
   }
 }
 
-customElements.define("mi-nav", MiNav);
+customElements.define("mi-nav", MiNav)

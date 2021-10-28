@@ -1,11 +1,11 @@
-import "../js/config.js";
-import { Diapositiva } from "../lib/Diapositiva.js";
-import "../lib/instrucciones-nav.js";
+import "../js/config.js"
+import { Diapositiva } from "../lib/Diapositiva.js"
+import "../lib/instrucciones-nav.js"
 
 export class GilPGFPIndex extends Diapositiva {
  /** @override */
  connectedCallback() {
-  super.connectedCallback();
+  super.connectedCallback()
   this.innerHTML = /* html */
    `<h1 class="sitio">Fundamentos de programación</h1>
    <div class="lectura">

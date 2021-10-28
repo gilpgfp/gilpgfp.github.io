@@ -1,11 +1,11 @@
-import { Diapositiva } from "../lib/Diapositiva.js";
-import "../lib/instrucciones-nav.js";
-import "./gilpgfp-index.js";
+import { Diapositiva } from "../lib/Diapositiva.js"
+import "../lib/instrucciones-nav.js"
+import "./gilpgfp-index.js"
 
 export class GilPGFPPrint extends Diapositiva {
  /** @override */
  connectedCallback() {
-  super.connectedCallback();
+  super.connectedCallback()
   this.innerHTML = /* html */
    `<gilpgfp-index></gilpgfp-index>
     <mi-footer></mi-footer>
@@ -95,8 +95,8 @@ export class GilPGFPPrint extends Diapositiva {
      <h1 class="presentación">17. La estructura de control <strong>switch</strong></h1>
      <switch-print></switch-print>
      <mi-footer></mi-footer>
-    </section>`;
+    </section>`
  }
 }
 
-customElements.define("gilpgfp-print", GilPGFPPrint);
+customElements.define("gilpgfp-print", GilPGFPPrint)
