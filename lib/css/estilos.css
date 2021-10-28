@@ -39,6 +39,8 @@ h1:not(.default) strong,
 h2:not(.default) strong,
 mi-nav a {
  font-family: var(--fontSans);
+ display: inline-flex;
+ gap: var(--gapA);
 }
 
 h1 strong,
@@ -50,6 +52,9 @@ muestra-codigo>div>div {
  white-space: nowrap;
 }
 
+details div {
+ margin: 1rem 0 1rem 1rem;
+}
 summary {
  margin-top: 1rem;
  margin-bottom: 1rem;
@@ -78,14 +83,20 @@ mi-nav .actual h4 {
 }
 
 @media screen and (max-width: 999px) {
- h1.presentación {
+ h1.sitio {
+  font-size: 3rem;
+ }
+ h1.leccion {
   font-size: 2.5rem;
  }
 }
 
 @media screen and (min-width: 1000px) {
- h1.presentación {
-  font-size: 8vh;
+ h1.sitio {
+  font-size: 9vh;
+ }
+ h1.leccion {
+  font-size: 7vh;
  }
 }
 
