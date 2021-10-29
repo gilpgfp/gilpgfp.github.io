@@ -1,5 +1,5 @@
+import "../js/config.js"
 import { Diapositiva } from "../lib/Diapositiva.js"
-import "../lib/instrucciones-nav.js"
 import "./gilpgfp-index.js"
 
 export class GilPGFPPrint extends Diapositiva {

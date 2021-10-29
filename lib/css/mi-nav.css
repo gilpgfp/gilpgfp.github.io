@@ -5,6 +5,7 @@ mi-nav {
 mi-nav a {
  font-family: var(--fontSans);
  display: inline-flex;
+ flex-wrap: wrap;
  gap: var(--gapA);
 }
 
